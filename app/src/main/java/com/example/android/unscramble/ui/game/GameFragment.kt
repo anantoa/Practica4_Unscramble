@@ -1,3 +1,5 @@
+package com.example.android.unscramble.ui.game
+
 import android.os.Bundle
 import android.util.Log
 import android.view.LayoutInflater
@@ -7,8 +9,6 @@ import androidx.fragment.app.Fragment
 import androidx.fragment.app.viewModels
 import com.example.android.unscramble.R
 import com.example.android.unscramble.databinding.GameFragmentBinding
-import com.example.android.unscramble.ui.game.MAX_NO_OF_WORDS
-import com.example.android.unscramble.ui.game.allWordsList
 import com.google.android.material.dialog.MaterialAlertDialogBuilder
 
 /**

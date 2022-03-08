@@ -1,12 +1,8 @@
+package com.example.android.unscramble.ui.game
+
 import android.util.Log
 import androidx.lifecycle.ViewModel
-import com.example.android.unscramble.ui.game.MAX_NO_OF_WORDS
-import com.example.android.unscramble.ui.game.SCORE_INCREASE
-import com.example.android.unscramble.ui.game.allWordsList
 
-/**
- * ViewModel containing the app data and methods to process the data
- */
 class GameViewModel : ViewModel(){
     private var _score = 0
     val score: Int
